@@ -1,6 +1,6 @@
 {
   "provider": "google",
-  "api_key": "AIzaSyCeWd_yVFCqw3q6HAn73Uvf4V9PUvciJiQ",
+  "api_key": "",
   "model": "gemini-2.0-flash",
   "theme": "dark",
   "hotkey": "ctrl+b",

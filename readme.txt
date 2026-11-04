@@ -79,7 +79,7 @@ pyinstaller --noconsole --onefile --icon "icon_robot.ico" --name "AI_Screenshot_
 ```json
 {
   "provider": "google",
-  "api_key": "AIzaSyCeWd_yVFCqw3q6HAn73Uvf4V9PUvciJiQ",
+  "api_key": "ВАШ_КЛЮЧ_API",
   "model": "gemini-2.0-flash",
   "theme": "dark",
   "hotkey": "ctrl+b",

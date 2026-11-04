@@ -589,8 +589,8 @@ class ChatApp(ctk.CTk):
             model_entry.delete(0, "end")
 
             if pname == "google":
-                # Для Google – предустановленные значения
-                api_entry.insert(0, "AIzaSyCeWd_yVFCqw3q6HAn73Uvf4V9PUvciJiQ")
+                # Для Google – предустановленные модель и адрес; ключ — только свой (из настроек или GOOGLE_API_KEY)
+                api_entry.insert(0, provider_conf.get("api_key") or config.get("google_api_key") or os.environ.get("GOOGLE_API_KEY", ""))
                 model_entry.insert(0, "gemini-2.0-flash")
                 base_entry.insert(0, "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent")
             else:
